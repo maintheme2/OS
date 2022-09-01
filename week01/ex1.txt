@@ -1,0 +1,5 @@
+/usr/bin/x86_64-linux-gnu-gcc-nm-8
+/usr/bin/x86_64-linux-gnu-gcc-ar-8
+/usr/bin/gcc-ar-8
+/usr/bin/gcc
+/usr/bin/c99-gcc

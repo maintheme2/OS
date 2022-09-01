@@ -1,0 +1,13 @@
+Templates
+Public
+Music
+Desktop
+labs_ws
+catkin_ws
+code
+snap
+Videos
+Pictures
+Study
+Downloads
+Documents

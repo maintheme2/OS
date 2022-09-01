@@ -1,0 +1,1000 @@
+ 1099  code 
+ 1100  cd code/c++/
+ 1101  ls
+ 1102  cd pointers/
+ 1103  ls
+ 1104  code pointers.cpp 
+ 1105  cd 
+ 1106  clear 
+ 1107  cd Do
+ 1108  cd Documents/
+ 1109  ls
+ 1110  clear 
+ 1111  open PES_Assignment.pdf 
+ 1112  mkdir history_homework2
+ 1113  ls
+ 1114  clear 
+ 1115  exit 
+ 1116  lshw -C
+ 1117  lshw -C network
+ 1118  sudo lshw -C network
+ 1119  cd code/ast/syntax-visualizer/
+ 1120  npm run dev 
+ 1121  npm install
+ 1122  npm run dev 
+ 1123  npm install
+ 1124  clear
+ 1125  ls
+ 1126  rm -rf node_modules/
+ 1127  npm i
+ 1128  ls
+ 1129  git branch
+ 1130  git fetch
+ 1131  exit 
+ 1132  clear 
+ 1133  cd ..
+ 1134  clear 
+ 1135  cd python/
+ 1136  mkdir codewars
+ 1137  cd codewars/
+ 1138  ls
+ 1139  clear 
+ 1140  python3 toJadenCase.py 
+ 1141  clear 
+ 1142  python3 toJadenCase.py 
+ 1143  clear
+ 1144  python3 toJadenCase.py 
+ 1145  clear 
+ 1146  python3 toJadenCase.py 
+ 1147  clear 
+ 1148  python3 toJadenCase.py 
+ 1149  shutdown 0
+ 1150  /bin/python3
+ 1151  clear 
+ 1152  python3 sumOfOddNumbers.py 
+ 1153  clear 
+ 1154  python3 sumOfOddNumbers.py 
+ 1155  clear 
+ 1156  python3 sumOfOddNumbers.py 
+ 1157  clear 
+ 1158  python3 sumOfOddNumbers.py 
+ 1159  clear 
+ 1160  python3 sumOfOddNumbers.py 
+ 1161  clear 
+ 1162  python3 sumOfOddNumbers.py 
+ 1163  clear 
+ 1164  python3 sumOfOddNumbers.py 
+ 1165  clear
+ 1166  python3 sumOfOddNumbers.py 
+ 1167  clear
+ 1168  clear 
+ 1169  python3 sumOfOddNumbers.py 
+ 1170  clear 
+ 1171  python3 sumOfOddNumbers.py 
+ 1172  clear 
+ 1173  python3 sumOfOddNumbers.py 
+ 1174  clear 
+ 1175  python3 sumOfOddNumbers.py 
+ 1176  clear 
+ 1177  python3 sumOfOddNumbers.py 
+ 1178  clear 
+ 1179  python3 sumOfOddNumbers.py 
+ 1180  clear 
+ 1181  python3 sumOfOddNumbers.py 
+ 1182  clear 
+ 1183  python3 sumOfOddNumbers.py 
+ 1184  clear 
+ 1185  python3 sumOfOddNumbers.py 
+ 1186  clear 
+ 1187  python3 sumOfOddNumbers.py 
+ 1188  clear 
+ 1189  python3 sumOfOddNumbers.py 
+ 1190  clear 
+ 1191  python3 sumOfOddNumbers.py 
+ 1192  clear 
+ 1193  python3 sumOfOddNumbers.py 
+ 1194  cd code/
+ 1195  ls
+ 1196  cd 
+ 1197  clar 
+ 1198  clear 
+ 1199  cd catkin_ws/
+ 1200  ls
+ 1201  cd src/
+ 1202  ls
+ 1203  clear 
+ 1204  catkin create pkg ros_project
+ 1205  rm -rf ros_project/
+ 1206  clear 
+ 1207  ls
+ 1208  rm -rf homework3_oleg_hlopcev.zip 
+ 1209  clear 
+ 1210  /bin/python3
+ 1211  cd code/python/codewars/
+ 1212  sl
+ 1213  ls
+ 1214  clear 
+ 1215  code .
+ 1216  code nextSmaller.py
+ 1217  python3 nextSmaller.py 
+ 1218  clear 
+ 1219  python3 nextSmaller.py 
+ 1220  clear 
+ 1221  python3 nextSmaller.py 
+ 1222  clear 
+ 1223  python3 nextSmaller.py 
+ 1224  clear 
+ 1225  python3 nextSmaller.py 
+ 1226  clear 
+ 1227  python3 nextSmaller.py 
+ 1228  clear 
+ 1229  python3 nextSmaller.py 
+ 1230  clear 
+ 1231  python3 nextSmaller.py 
+ 1232  clear 
+ 1233  python3 nextSmaller.py 
+ 1234  clear 
+ 1235  python3 nextSmaller.py 
+ 1236  exit 
+ 1237  cd catkin_ws/src/
+ 1238  git clone https://github.com/evsey9/inno_ros_intro_r2d2_slam
+ 1239  ls
+ 1240  cd inno_ros_intro_r2d2_slam/
+ 1241  ls
+ 1242  clear 
+ 1243  ls
+ 1244  cd 
+ 1245  sudo apt-get install ros-noetic-hector-slam
+ 1246  cd catkin_ws
+ 1247  ls
+ 1248  cd src/
+ 1249  ls
+ 1250  cd ..
+ 1251  catkin build r2d2_slam 
+ 1252  source devel/setup.bash
+ 1253  roslaunch r2d2_slam diffdrive_noetic.launch 
+ 1254  git clone https://github.com/ros-planning/navigation
+ 1255  cd src
+ 1256  ls
+ 1257  cd ..
+ 1258  ls
+ 1259  rm -rf navigation/
+ 1260  cd src 
+ 1261  git clone https://github.com/ros-planning/navigation
+ 1262  catkin build move_base
+ 1263  cd 
+ 1264  cd -
+ 1265  ls
+ 1266  sudo apt-get install libsdl-image1.2-dev
+ 1267  sudo apt-get install libsdl-dev
+ 1268  catkin build move_base 
+ 1269  sudo apt-get install ros-noetic-tf2-sensor-msgs
+ 1270  catkin build move_base 
+ 1271  git clone https://github.com/ros-planning/navigation_msgs.git
+ 1272  catkin build move_base 
+ 1273  ls
+ 1274  cd inno_ros_intro_r2d2_slam/
+ 1275  sl
+ 1276  ls
+ 1277  clear 
+ 1278  ls
+ 1279  cd launch/
+ 1280  ls
+ 1281  code move_base.launch
+ 1282  cd 
+ 1283  clear 
+ 1284  cd catkin_ws/
+ 1285  ls
+ 1286  cd src/
+ 1287  ls
+ 1288  clear 
+ 1289  ls
+ 1290  cd navigation
+ 1291  ls
+ 1292  cd base_local_planner/
+ 1293  ls
+ 1294  cd src/
+ 1295  sl
+ 1296  ls
+ 1297  cd 
+ 1298  clear 
+ 1299  cd catkin_ws/
+ 1300  catkin build r2d2_slam 
+ 1301  source devel/setup.bash
+ 1302  roslaunch r2d2_slam diffdrive_noetic.launch 
+ 1303  clear 
+ 1304  roslaunch r2d2_slam diffdrive_noetic.launch 
+ 1305  clear 
+ 1306  roslaunch r2d2_slam diffdrive_noetic.launch 
+ 1307  roclean
+ 1308  rosclean
+ 1309  rosclean --hrlp
+ 1310  rosclean --help
+ 1311  rosclean check
+ 1312  neofetch 
+ 1313  clear 
+ 1314  rosclean purge
+ 1315  clear 
+ 1316  neofetch
+ 1317  clear 
+ 1318  neofetch 
+ 1319  clear 
+ 1320  cd
+ 1321  ssh -T maintheme2@github.com
+ 1322  ls -al ~/.ssh
+ 1323  exec ssh-agent bash
+ 1324  cd catkin_ws/
+ 1325  cd src/
+ 1326  ls
+ 1327  cd inno_ros_intro_r2d2_slam/
+ 1328  code .
+ 1329  lear 
+ 1330  cd ..
+ 1331  clear 
+ 1332  roslaunch r2d2_slam diffdrive_noetic.launch 
+ 1333  clear 
+ 1334  roslaunch r2d2_slam diffdrive_noetic.launch 
+ 1335  clear 
+ 1336  cd src/inno_ros_intro_r2d2_slam/
+ 1337  git status 
+ 1338  git checkout -h
+ 1339  git checkout -b move_base
+ 1340  git status 
+ 1341  git add .
+ 1342  git commit -m "add move_base node w/ dependencies"
+ 1343  git push 
+ 1344  git push -u origin move_base 
+ 1345  rostopic list 
+ 1346  clear 
+ 1347  rostopic echo /move_base_simple/goal 
+ 1348  rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped "header:
+ 1349    seq: 0
+ 1350    stamp:
+ 1351      secs: 0
+ 1352      nsecs: 0
+ 1353    frame_id: 'base_link'
+ 1354  pose:
+ 1355    position:
+ 1356      x: 2.0
+ 1357      y: 2.0
+ 1358      z: 0.0
+ 1359    orientation:
+ 1360      x: 7.0
+ 1361      y: 0.0
+ 1362      z: 0.0
+ 1363      w: 3.0" 
+ 1364  rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped "header:
+ 1365    seq: 0
+ 1366    stamp:
+ 1367      secs: 0
+ 1368      nsecs: 0
+ 1369    frame_id: 'base_link'
+ 1370  pose:
+ 1371    position:
+ 1372      x: 2.0
+ 1373      y: 2.0
+ 1374      z: 0.0
+ 1375    orientation:
+ 1376      x: 2.0
+ 1377      y: 0.0
+ 1378      z: 0.0
+ 1379      w: 1.0" 
+ 1380  rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped "header:
+ 1381    seq: 0
+ 1382    stamp:
+ 1383      secs: 0
+ 1384      nsecs: 0
+ 1385    frame_id: 'base_link'
+ 1386  pose:
+ 1387    position:
+ 1388      x: 2.0
+ 1389      y: 2.0
+ 1390      z: 0.0
+ 1391    orientation:
+ 1392      x: 1.0
+ 1393      y: 1.0
+ 1394      z: 0.0
+ 1395      w: 0.0" 
+ 1396  rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped "header:
+ 1397    seq: 0
+ 1398    stamp:
+ 1399      secs: 0
+ 1400      nsecs: 0
+ 1401    frame_id: 'base_link'
+ 1402  pose:
+ 1403    position:
+ 1404      x: 2.0
+ 1405      y: 0.0
+ 1406      z: 0.0
+ 1407    orientation:
+ 1408      x: 1.0
+ 1409      y: .0
+ 1410      z: 0.0
+ 1411      w: 0.0" 
+ 1412  rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped "header:
+ 1413    seq: 0
+ 1414    stamp:
+ 1415      secs: 0
+ 1416      nsecs: 0
+ 1417    frame_id: 'base_link'
+ 1418  pose:
+ 1419    position:
+ 1420      x: 2.0
+ 1421      y: 0.0
+ 1422      z: 0.0
+ 1423    orientation:
+ 1424      x: 1.0
+ 1425      y: 0.0
+ 1426      z: 0.0
+ 1427      w: 0.0" 
+ 1428  rostopic list 
+ 1429  rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped "header:
+ 1430    seq: 0
+ 1431    stamp:
+ 1432      secs: 0
+ 1433      nsecs: 0
+ 1434    frame_id: 'base_link'
+ 1435  pose:
+ 1436    position:
+ 1437      x: 2.0
+ 1438      y: 0.0
+ 1439      z: 0.0
+ 1440    orientation:
+ 1441      x: 1.0
+ 1442      y: 0.0
+ 1443      z: 0.0
+ 1444      w: 0.0" 
+ 1445  eval "$(ssh-agent -s)"
+ 1446  cd ~/
+ 1447  ls
+ 1448  cd ..
+ 1449  ls
+ 1450  clear 
+ 1451  cd maintheme/
+ 1452  ls
+ 1453  ls -a
+ 1454  cd ~/.ssh
+ 1455  ls
+ 1456  ls -a
+ 1457  cat id_ed25519
+ 1458  cd 
+ 1459  ssh-add ~/.ssh/id_ed25519
+ 1460  clear 
+ 1461  cd catkin_ws/src/inno_ros_intro_r2d2_slam/
+ 1462  git status 
+ 1463  git push -u origin move_base 
+ 1464  clear 
+ 1465  cd ..
+ 1466  ls
+ 1467  git clone git@github.com:evsey9/inno_ros_intro_r2d2_slam.git
+ 1468  cd inno_ros_intro_r2d2_slam/
+ 1469  git pull
+ 1470  git checkout 
+ 1471  git checkout -h
+ 1472  git checkout move_base 
+ 1473  git status 
+ 1474  git push 
+ 1475  clear 
+ 1476  cd ..
+ 1477  rm -rf inno_ros_intro_r2d2_slam/
+ 1478  ls
+ 1479  git clone git@github.com:evsey9/inno_ros_intro_r2d2_slam.git
+ 1480  cd inno_ros_intro_r2d2_slam/
+ 1481  clear 
+ 1482  ls
+ 1483  clear 
+ 1484  git checkout move_base 
+ 1485  clear 
+ 1486  git status 
+ 1487  git add .
+ 1488  git commit -m "add move_base node with dependencies"
+ 1489  git push
+ 1490  exit 
+ 1491  cd catkin_ws/src/
+ 1492  ls 
+ 1493  code homework3_oleg_hlopcev/
+ 1494  catkin build homework3_oleg_hlopcev 
+ 1495  cd ..
+ 1496  source devel/setup.bash 
+ 1497  roslaunch homework3_oleg_hlopcev spawn.launch 
+ 1498  cd src/inno_ros_intro_r2d2_slam/
+ 1499  ls
+ 1500  cd 
+ 1501  cd catkin_ws/
+ 1502  ls
+ 1503  clear 
+ 1504  catkin build r2d2_slam 
+ 1505  source devel/setup.bash 
+ 1506  roslaunch r2d2_slam diffdrive_noetic.launch 
+ 1507  clear 
+ 1508  roslaunch homework3_oleg_hlopcev spawn.launch 
+ 1509  cd src/inno_ros_intro_r2d2_slam/
+ 1510  git pull 
+ 1511  git checkout 
+ 1512  cd 
+ 1513  cd catkin_ws/
+ 1514  clear 
+ 1515  catkin build r2d2_slam 
+ 1516  source devel/setup.bash 
+ 1517  roslaunch r2d2_slam diffdrive_noetic.launch 
+ 1518  clear 
+ 1519  roslaunch homework3_oleg_hlopcev spawn.launch 
+ 1520  code src/homework3_oleg_hlopcev/
+ 1521  roslaunch homework3_oleg_hlopcev spawn.launch 
+ 1522  учше 
+ 1523  clear 
+ 1524  roslaunch homework3_oleg_hlopcev spawn.launch 
+ 1525  code src/inno_ros_intro_r2d2_slam/
+ 1526  clear 
+ 1527  exit 
+ 1528  cd catkin_ws/
+ 1529  roslaunch r2d2_slam diffdrive_noetic.launch 
+ 1530  clear 
+ 1531  roslaunch homework3_oleg_hlopcev spawn.launch 
+ 1532  exit 
+ 1533  printenv > /tmp/tmp-33100qbX2PtFQkZ49txt
+ 1534  code code/python/codewars/ann_john.py
+ 1535  cd code/python/codewars/
+ 1536  python3 ann_john.py 
+ 1537  exit
+ 1538  cd code/python/codewars/
+ 1539  python3 ann_john.py 
+ 1540  clear 
+ 1541  python3 ann_john.py 
+ 1542  clear 
+ 1543  python3 ann_john.py 
+ 1544  clear 
+ 1545  python3 ann_john.py 
+ 1546  exit
+ 1547  cd code/python/codewars/
+ 1548  python3 ann_john.py 
+ 1549  clear 
+ 1550  python3 ann_john.py 
+ 1551  cd code/python/codewars/
+ 1552  code .
+ 1553  sudo apt update && sudo apt upgrade
+ 1554  exit
+ 1555  /bin/python3 /home/maintheme/code/python/codewars/timeHumForm.py
+ 1556  clear
+ 1557  /bin/python3
+ 1558  exit
+ 1559  clear 
+ 1560  python3 ann_john.py 
+ 1561  clear
+ 1562  python3 ann_john.py 
+ 1563  exit
+ 1564  /bin/python3 /home/maintheme/code/python/codewars/timeHumForm.py
+ 1565  clear
+ 1566  /bin/python3
+ 1567  exit
+ 1568  exit 
+ 1569  /bin/python3 /home/maintheme/code/python/codewars/validPar.py
+ 1570  сдуфк 
+ 1571  clear 
+ 1572  /bin/python3 /home/maintheme/code/python/codewars/validPar.py
+ 1573  clear
+ 1574  /bin/python3 /home/maintheme/code/python/codewars/validPar.py
+ 1575  clear
+ 1576  /bin/python3 /home/maintheme/code/python/codewars/validPar.py
+ 1577  clear
+ 1578  /bin/python3 /home/maintheme/code/python/codewars/anagrams.py
+ 1579  clear 
+ 1580  /bin/python3 /home/maintheme/code/python/codewars/anagrams.py
+ 1581  clear
+ 1582  /bin/python3 /home/maintheme/code/python/codewars/anagrams.py
+ 1583  clear
+ 1584  /bin/python3 /home/maintheme/code/python/codewars/anagrams.py
+ 1585  clear
+ 1586  /bin/python3 /home/maintheme/code/python/codewars/anagrams.py
+ 1587  /bin/python3
+ 1588  clear
+ 1589  /bin/python3 /home/maintheme/code/python/codewars/anagrams.py
+ 1590  clear
+ 1591  /bin/python3 /home/maintheme/code/python/codewars/anagrams.py
+ 1592  clear
+ 1593  python3 ann_john.py 
+ 1594  clear
+ 1595  python3 ann_john.py 
+ 1596  clear
+ 1597  python3 ann_john.py 
+ 1598  clear
+ 1599  python3 ann_john.py 
+ 1600  clear
+ 1601  python3 ann_john.py 
+ 1602  clear
+ 1603  python3 ann_john.py 
+ 1604  clear
+ 1605  python3 ann_john.py 
+ 1606  clear
+ 1607  python3 ann_john.py 
+ 1608  clear
+ 1609  python3 ann_john.py 
+ 1610  clear
+ 1611  python3 ann_john.py 
+ 1612  clear
+ 1613  python3 ann_john.py 
+ 1614  clear
+ 1615  python3 ann_john.py 
+ 1616  clear 
+ 1617  python3 spinWord.py 
+ 1618  clear
+ 1619  python3 spinWord.py 
+ 1620  clear
+ 1621  python3 spinWord.py 
+ 1622  clar
+ 1623  clear
+ 1624  clar
+ 1625  clear
+ 1626  python3 spinWord.py 
+ 1627  clear
+ 1628  python3 spinWord.py 
+ 1629  clear
+ 1630  python3 spinWord.py 
+ 1631  clear
+ 1632  python3 spinWord.py 
+ 1633  clear
+ 1634  python spinWord.py 
+ 1635  python3 spinWord.py 
+ 1636  clear
+ 1637  python3 spinWord.py 
+ 1638  python3 timeHumForm.py 
+ 1639  clear
+ 1640  python3 timeHumForm.py 
+ 1641  clear 
+ 1642  neofetch
+ 1643  clear
+ 1644  exit
+ 1645  code code/python/codewars/
+ 1646  exit
+ 1647  clear
+ 1648  /bin/python3 /home/maintheme/code/python/codewars/dirRed.py
+ 1649  /bin/python3
+ 1650  exit
+ 1651  code code/python/codewars/
+ 1652  exit
+ 1653  /bin/python3 /home/maintheme/code/python/codewars/dirRed.py
+ 1654  clear
+ 1655  /bin/python3 /home/maintheme/code/python/codewars/dirRed.py
+ 1656  clear
+ 1657  /bin/python3 /home/maintheme/code/python/codewars/dirRed.py
+ 1658  /bin/python3
+ 1659  clear
+ 1660  /bin/python3 /home/maintheme/code/python/codewars/dirRed.py
+ 1661  code code/python/codewars/
+ 1662  cd code/python/codewars/
+ 1663  ls
+ 1664  code .
+ 1665  exit 
+ 1666  /bin/python3 /home/maintheme/code/python/codewars/rgbToHex.py
+ 1667  cd code/python/codewars/
+ 1668  code .
+ 1669  exit 
+ 1670  /bin/python3 /home/maintheme/code/python/codewars/rgbToHex.py
+ 1671  ls
+ 1672  cd code 
+ 1673  l
+ 1674  cd ast/
+ 1675  ls
+ 1676  cd ..
+ 1677  cd 
+ 1678  clear 
+ 1679  cd 
+ 1680  ls
+ 1681  ls -a
+ 1682  vivaldi 
+ 1683  firefox
+ 1684  clear
+ 1685  exit 
+ 1686  neofetch 
+ 1687  shutdown 0
+ 1688  exit 
+ 1689  shutdown 0
+ 1690  cd code/python/codewars/
+ 1691  ls
+ 1692  code top3words.cpp
+ 1693  exit 
+ 1694  /bin/python3 /home/maintheme/code/python/codewars/top3words.py
+ 1695  clear 
+ 1696  bin/python3 /home/maintheme/code/python/codewars/top3words.py
+ 1697  /bin/python3 /home/maintheme/code/python/codewars/top3words.py
+ 1698  clear
+ 1699  /bin/python3 /home/maintheme/code/python/codewars/top3words.py
+ 1700  cd -
+ 1701  cd code/python/codewars/
+ 1702  ls
+ 1703  code top3words.py
+ 1704  exit 
+ 1705  telegram-desktop 
+ 1706  telegram-desktop &
+ 1707  exit 
+ 1708  cd code/python/
+ 1709  codewars/
+ 1710  ls
+ 1711  cd codewars/
+ 1712  ls
+ 1713  clear 
+ 1714  cd 
+ 1715  clear 
+ 1716  cd code 
+ 1717  ls
+ 1718  mkdir codewars
+ 1719  ls
+ 1720  cd codewars/
+ 1721  ls
+ 1722  cd ..
+ 1723  ls
+ 1724  mv python/ codewars
+ 1725  ls
+ 1726  cd codewars/
+ 1727  ls
+ 1728  cd python/
+ 1729  ls
+ 1730  cd ..
+ 1731  ls
+ 1732  cd ..
+ 1733  ls
+ 1734  clear 
+ 1735  ls
+ 1736  mv codewars/python/ .
+ 1737  ls
+ 1738  cd codewars/
+ 1739  ls
+ 1740  git init 
+ 1741  ls
+ 1742  ls -a
+ 1743  clear 
+ 1744  cd ..
+ 1745  ls
+ 1746  cd -
+ 1747  mkdir 1kyu 2kyu
+ 1748  ls
+ 1749  mkdir 3kyu 4kyu 5kyu 6 kyu 7kyu 8kyu
+ 1750  ls
+ 1751  xdg-open .
+ 1752  ls
+ 1753  cd c++/
+ 1754  ls
+ 1755  cd 4kyu/
+ 1756  ls
+ 1757  code infToPost.cpp
+ 1758  cd 
+ 1759  clear 
+ 1760  cd code/codewars/
+ 1761  ls
+ 1762  ls -a 
+ 1763  git status 
+ 1764  git add .
+ 1765  git commit -m "add alrdy finished kata"
+ 1766  git push 
+ 1767  gh repo create 
+ 1768  snap info gh
+ 1769  sudo snap install gh
+ 1770  gh repo create
+ 1771  gh auth login
+ 1772  gh auth login 
+ 1773  gh repo create 
+ 1774  git status 
+ 1775  ls
+ 1776  git status 
+ 1777  git add .
+ 1778  git status 
+ 1779  git push 
+ 1780  gh -h
+ 1781  git repo -h
+ 1782  gh repo -h
+ 1783  git repo list 
+ 1784  gh repo list 
+ 1785  gh repo edit 
+ 1786  gh repo createt 
+ 1787  gh repo create
+ 1788  ssh -T git@github.com
+ 1789  ssh-add ~/.ssh/id_rsa
+ 1790  gh repo create
+ 1791  git status 
+ 1792  git branch -M main
+ 1793  git remote add origin git@github.com:maintheme2/codewars-kata.git
+ 1794  git branch -M main
+ 1795  git push -u origin main
+ 1796  clear 
+ 1797  ls
+ 1798  cd python/
+ 1799  ls
+ 1800  code 4kyu/top3words.py 
+ 1801  /bin/python3 /home/maintheme/code/codewars/python/4kyu/top3words.py
+ 1802  /bin/python3
+ 1803  exit 
+ 1804  cd code/codewars/
+ 1805  ls
+ 1806  git status 
+ 1807  git add .
+ 1808  git commit -m "108 out of 111 passed"
+ 1809  git push 
+ 1810  exit 
+ 1811  /bin/python3 /home/maintheme/code/codewars/python/4kyu/top3words.py
+ 1812  /bin/python3 /home/maintheme/code/codewars/python/4kyu/top3words.py
+ 1813  /bin/python3
+ 1814  exit
+ 1815  /bin/python3 /home/maintheme/code/codewars/python/4kyu/rangeExtraction.py
+ 1816  /bin/python3
+ 1817  exit 
+ 1818  /bin/python3 /home/maintheme/code/codewars/python/4kyu/rangeExtraction.py
+ 1819  /bin/python3 /home/maintheme/code/codewars/python/5kyu/timeHumForm.py
+ 1820  cd code/codewars/
+ 1821  ls
+ 1822  code python/4kyu/top3words.py 
+ 1823  git status 
+ 1824  git add . && git commit -m "passed" 
+ 1825  git push 
+ 1826  git add . && git commit -m "solved" 
+ 1827  git push 
+ 1828  clear 
+ 1829  exit
+ 1830  clear
+ 1831  exit 
+ 1832  /bin/python3 /home/maintheme/code/codewars/python/4kyu/sortBinTree.py
+ 1833  cd code/codewars/python/
+ 1834  ls
+ 1835  code 4kyu/sortBinTree.py
+ 1836  cd .. 
+ 1837  git add . && git commit -m "started"
+ 1838  git push 
+ 1839  git status 
+ 1840  git push 
+ 1841  git pull
+ 1842  git push 
+ 1843  exit 
+ 1844  cd code/codewars/python/4kyu/
+ 1845  code humanReadableTime.py 
+ 1846  exit
+ 1847  pip -h
+ 1848  pip install humanize 
+ 1849  cd code/codewars/python/4kyu/
+ 1850  code humanReadableTime.py 
+ 1851  exit 
+ 1852  /bin/python3 /home/maintheme/code/codewars/python/4kyu/humanReadableTime.py
+ 1853  cd code/codewars/
+ 1854  ls
+ 1855  git status 
+ 1856  git add . && git commit -m "solved with "humanize" module"
+ 1857  git push
+ 1858  exit 
+ 1859  /bin/python3 /home/maintheme/code/codewars/python/4kyu/humanReadableTime.py
+ 1860  cd code/codewars/python/4kyu/
+ 1861  code humanReadableTime.py 
+ 1862  exit 
+ 1863  shutdown 0
+ 1864  cd code 
+ 1865  cd 
+ 1866  code 
+ 1867  exit 
+ 1868  /bin/python3 /home/maintheme/code/codewars/python/4kyu/humanReadableTime.py
+ 1869  cd code/codewars/
+ 1870  git status
+ 1871  git add . && git commit -m "solved"
+ 1872  git push 
+ 1873  exit 
+ 1874  учше 
+ 1875  exit 
+ 1876  code
+ 1877  exit 
+ 1878  sudo apt update && sudo apt upgrade 
+ 1879  telegram-desktop -h
+ 1880  sudo snap refresh telegram-desktop 
+ 1881  telegram-desktop &
+ 1882  telegram-desktop
+ 1883  clear 
+ 1884  exit 
+ 1885  cd code/codewars/
+ 1886  git status 
+ 1887  git add python/4kyu/sortBinTree.py && git commit -m "solved"
+ 1888  git push 
+ 1889  git status
+ 1890  git add . && git commit -m "minor changes"
+ 1891  git push 
+ 1892  exit 
+ 1893  /bin/python3 /home/maintheme/code/codewars/python/4kyu/sortBinTree.py
+ 1894  cd code/codewars/python/5kyu/
+ 1895  code funcCalc.py
+ 1896  exit 
+ 1897  /bin/python3 /home/maintheme/code/codewars/python/5kyu/funcCalc.py
+ 1898  /bin/python3 /home/maintheme/code/codewars/python/4kyu/snalArr.py
+ 1899  cd code/codewars/python/4kyu/
+ 1900  mv snalArr.py snailArr.py
+ 1901  snailArr.py
+ 1902  code snailArr.py 
+ 1903  cd code/codewars/python/4kyu/
+ 1904  code snalArr.py
+ 1905  exit 
+ 1906  wpm -short 
+ 1907  wpm --short 
+ 1908  exit 
+ 1909  python3
+ 1910  exit
+ 1911  wpm
+ 1912  clea 
+ 1913  clear 
+ 1914  wpm --short 
+ 1915  ixt 
+ 1916  eixt 
+ 1917  exit 
+ 1918  cls
+ 1919  clear
+ 1920  ls
+ 1921  cd Documents/
+ 1922  ls
+ 1923  clear 
+ 1924  touch namelist
+ 1925  nano namelist
+ 1926  sort -h
+ 1927  sort --h
+ 1928  sort namelist > namelist.sorted
+ 1929  ls
+ 1930  cat namelist.sorted 
+ 1931  cat namelist
+ 1932  sort -r namelist > namelist.sorted
+ 1933  cat namelist.sorted 
+ 1934  cat namelist
+ 1935  ls
+ 1936  man
+ 1937  man man
+ 1938  whoami
+ 1939  hostname
+ 1940  uname
+ 1941  uname -a
+ 1942  less namelist
+ 1943  more
+ 1944  more namelist
+ 1945  clear 
+ 1946  rm namelist namelist.sorted 
+ 1947  ls
+ 1948  clea
+ 1949  rclear
+ 1950  clear
+ 1951  cd 
+ 1952  greb --help 
+ 1953  grep --help 
+ 1954  ls /proc
+ 1955  cd Documents/
+ 1956  ls /proc
+ 1957  ls /proc  > ls.txt
+ 1958  ls /proc  > ls.txt | grep "driver" ls.txt 
+ 1959  cat ls.txt 
+ 1960  clear 
+ 1961  grep "driver" /proc
+ 1962  echo grep "driver" /proc 
+ 1963  grep "driver" /proc 
+ 1964  grep "driver" ls.txt
+ 1965  ls /proc | grep "driver" 
+ 1966  find /proc -name "driver"
+ 1967  find /proc -name "driver" 2> error.txt
+ 1968  find /proc -name "driver" 2> /dev/null
+ 1969  rm error.txt 
+ 1970  rm --help
+ 1971  cd 
+ 1972  cd -
+ 1973  ecls
+ 1974  clear
+ 1975  ls
+ 1976  echo qwer | echo
+ 1977  clear
+ 1978  :
+ 1979  python3
+ 1980  clear
+ 1981  jobs
+ 1982  code
+ 1983  jobs
+ 1984  clear 
+ 1985  firefox & 
+ 1986  jobs
+ 1987  kill %1 
+ 1988  code
+ 1989  jobs
+ 1990  code &
+ 1991  jobs 
+ 1992  kill %1
+ 1993  jobs
+ 1994  clear
+ 1995  exit 
+ 1996  neofetch 
+ 1997  exit 
+ 1998  учеш 
+ 1999  exit 
+ 2000  cd Study/OS
+ 2001  clear
+ 2002  gh repo create
+ 2003  ls
+ 2004  git status 
+ 2005  cd OS-homework1/
+ 2006  git status 
+ 2007  clear
+ 2008  gh repo -h
+ 2009  gh repo delete
+ 2010  gh auth refresh -h github.com -s delete_repo
+ 2011  gh repo delete
+ 2012  gh repo rename
+ 2013  ls
+ 2014  mkdir week01
+ 2015  cd week01/
+ 2016  echo $XDG_SESSION_TYPE
+ 2017  cd
+ 2018  cd Doce
+ 2019  cd Documents/
+ 2020  touch file.txt
+ 2021  nano file.txt 
+ 2022  sort -h
+ 2023  sort --help
+ 2024  sort file.txt > sortedfile.txt
+ 2025  more file.txt 
+ 2026  more sortedfile.txt 
+ 2027  sort -r file.txt > sortedfile.txt
+ 2028  more sortedfile.txt 
+ 2029  vim
+ 2030  vi
+ 2031  vi file.txt 
+ 2032  sort -r file.txt > sortedfile.txt
+ 2033  vi sortedfile.txt 
+ 2034  sort file.txt > sortedfile.txt
+ 2035  vi sortedfile.txt 
+ 2036  grep -h
+ 2037  grep --help
+ 2038  grep "gcc" /usr/bin 
+ 2039  find --help 
+ 2040  find /usr/bin "gcc"
+ 2041  find /usr/bin > file.txt 
+ 2042  vi file.txt
+ 2043  grep "gcc" file.txt
+ 2044  ls
+ 2045  rm file.txt ls.txt sortedfile.txt 
+ 2046  ls
+ 2047  clear
+ 2048  cd
+ 2049  cd Study/
+ 2050  ls
+ 2051  cd OS/
+ 2052  ls
+ 2053  cd OS-homework1/
+ 2054  ls
+ 2055  cd .
+ 2056  cd ..
+ 2057  ls
+ 2058  mv OS-homework1/ OS
+ 2059  ls
+ 2060  clear
+ 2061  ls
+ 2062  cd OS/
+ 2063  ls
+ 2064  clear
+ 2065  cd week01/
+ 2066  clear
+ 2067  find /usr/bin | grep "gcc" stdout
+ 2068  find /usr/bin | grep "gcc" 
+ 2069  clear
+ 2070  find /usr/bin | grep "gcc" | tail -n 5
+ 2071  find /usr/bin | grep "gcc" 
+ 2072  clear
+ 2073  find /usr/bin | grep "gcc" | tail -n 5 | sort -r > ex1.txt 
+ 2074  ls
+ 2075  ex1.txt
+ 2076  more ex1.txt
+ 2077  find /usr/bin | grep "gcc" | tail -n 5
+ 2078  echo find /usr/bin | grep "gcc" | tail -n 5 | sort -r > ex1.txt  
+ 2079  echo "find /usr/bin | grep "gcc" | tail -n 5 | sort -r > ex1.txt"
+ 2080  echo "find /usr/bin | grep "gcc" | tail -n 5 | sort -r > ex1.txt" > ex1.sh
+ 2081  ls
+ 2082  more ex1.sh
+ 2083  more ex1.txt
+ 2084  find /usr/bin | grep "gcc" | tail -n 5 | sort -r > ex1.txt 
+ 2085  more ex1.txt 
+ 2086  clear
+ 2087  more ex1.sh 
+ 2088  more ex1.txt
+ 2089  ls
+ 2090  history 
+ 2091  whoamI
+ 2092  whoami
+ 2093  whoru
+ 2094  who
+ 2095  w
+ 2096  uname
+ 2097  uname -a
+ 2098  history > ex2.txt
