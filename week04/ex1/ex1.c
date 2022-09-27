@@ -13,8 +13,8 @@ main() {
 
     if (pid1 == 0) {
         t1 = clock() - t1;
-        printf("child1: %d, parent: %d\nit took me %lf seconds to finish child1\n",
-        getpid(), getppid(), (double)t1/CLOCKS_PER_SEC);
+        printf("child1: %d, parent: %d\nit took me %lfms to finish child1\n",
+        getpid(), getppid(), (double)t1 / CLOCKS_PER_SEC * 1000);
 
     } else {
         pid_t pid2 = fork();
@@ -22,13 +22,13 @@ main() {
 
         if (pid2 == 0) {
             t2 = clock() - t2;
-            printf("child2: %d, parent: %d\nit took me %lf seconds to finish child2\n", 
-            getpid(), getppid(), (double)t2/CLOCKS_PER_SEC);
+            printf("child2: %d, parent: %d\nit took me %lfms to finish child2\n", 
+            getpid(), getppid(), (double)t2 / CLOCKS_PER_SEC * 1000);
 
         } else {
             t1 = clock() - t1;
-            printf("main: %d, parent: %d\nit took me %lf seconds to finish main\n", 
-            getpid(), getppid(), (double)t1/CLOCKS_PER_SEC);
+            printf("main: %d, parent: %d\nit took me %lfms to finish main\n", 
+            getpid(), getppid(), (double)t1 / CLOCKS_PER_SEC * 1000);
         }
     }
 	return EXIT_SUCCESS;

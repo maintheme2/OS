@@ -31,7 +31,7 @@ main(void) {
             token = strtok(NULL, " ");
         }
     } else strcat(cmd_path, cmd);
-
+    
     if (execvp(cmd_path, args) == -1)
         perror("couldn't compile");
 }
