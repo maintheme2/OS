@@ -1,0 +1,7 @@
+when n = 3 there were created 8 processes
+
+when n = 5 there were created 32 processes
+
+when the process calls fork(), it's child will iterate 1 times less than the process itself, because it comes up in such a way that the child, after it is created, already at parent's iteration.
+
+

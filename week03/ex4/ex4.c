@@ -60,8 +60,6 @@ aggregate(void* base, size_t size, int n, void* initial_value, void* (*opr)(cons
         for (short i = 0; i < 5; i++) {
             output = opr(output, base + i * size);
         }
-
-
 	} else { // base is a pointer to a double
         output = malloc(sizeof(double));
 	    base = (double*) base;
