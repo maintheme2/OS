@@ -1,0 +1,30 @@
+m = 1
+
+real	0m5.597s
+user	0m5.571s
+sys	0m0.004s
+
+m = 2
+
+real	0m2.839s
+user	0m5.580s
+sys	0m0.080s
+
+m = 4
+
+real	0m2.550s
+user	0m9.543s
+sys	0m0.339s
+
+m = 10
+
+real	0m2.524s
+user	0m9.607s
+sys	0m0.342s
+
+m = 100
+
+real	0m2.573s
+user	0m9.601s
+sys	0m0.380s
+

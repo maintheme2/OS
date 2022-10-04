@@ -1,0 +1,2 @@
+Here the execution time is slower if compare with the third task
+because we stop the threads with mutexes to avoid race conditions.

@@ -1,0 +1,3 @@
+As number of thread increases, we get faster execution time. But because the number 
+of threads is limited (according to google I have 4 threads available) the execution
+time doesn't shrink if m > 4. 
