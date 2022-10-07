@@ -1,0 +1,3 @@
+The first exercise implemented in such a way that every time the process
+arrive it starts executing. In the second exercise processes we consider not only arrival time
+but also the burst time, the process that takes the least time is executed first. Both algorithms are nonpreemptive.

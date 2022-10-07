@@ -1,6 +1,6 @@
 #include <stdlib.h>
-#include <sys/types.h>
 #include <stdio.h>
+#include <sys/types.h>
 
 int processes_number;
 
@@ -35,6 +35,30 @@ sort_by_arrival_time(process_t* processes) {
     }
 }
 
+void 
+sort_by_burst_time(process_t* processes) {
+    double temp;
+    for (int i = 0; i < processes_number - 1; i++) {
+        for (int j = i + 1; j < processes_number; j++) {
+            if ((processes[i].arrival_time == processes[j].arrival_time) && (processes[i].burst_time > processes[j].burst_time)) {
+                temp = processes[i].i;
+                processes[i].i = processes[j].i;
+                processes[j].i = temp;
+
+                temp = processes[i].arrival_time;
+                processes[i].arrival_time = processes[j].arrival_time;
+                processes[j].arrival_time = temp;
+                
+                temp = processes[i].burst_time;
+                processes[i].burst_time = processes[j].burst_time;
+                processes[j].burst_time = temp; 
+            } else {
+                continue;
+            }
+        }
+    }
+}
+
 int 
 main(int argc, char const *argv[]) {
     float average_tat, average_wt, arrival_time, burst_time;
@@ -56,6 +80,7 @@ main(int argc, char const *argv[]) {
     }
 
     sort_by_arrival_time(processes);
+    sort_by_burst_time(processes);
 
     for (int i = 0; i < processes_number; i++) {
         if (i == 0) {
@@ -82,6 +107,6 @@ main(int argc, char const *argv[]) {
 
     printf("\nAverage Turnaround time: %.2f\n", average_tat);
     printf("Average waiting time: %.2f\n", average_wt);
-    
+
     return 0;
 }
