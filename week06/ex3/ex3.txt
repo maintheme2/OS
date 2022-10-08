@@ -1,0 +1,3 @@
+Round robin algorithm gives a time for executing to each process and interrupts the 
+process if it is not completed by the specified quantum. The process is resumed next 
+time a time slot is assigned to that process. This algorithm is preemptive.
