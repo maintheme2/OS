@@ -1,0 +1,3 @@
+A physical address is the address of a byte in memory. A virtual address is how the CPU sees the address of a byte in memory. 
+The CPU sees the virtual address, and the OS translates it to a physical address.
+The difference is that the virtual address is translated to a physical address by the MMU.

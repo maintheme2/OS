@@ -1,0 +1,6 @@
+Each entry is 16 bits, so the total size of the page table is 16 times the number of entries. 
+The number of entries is the number of virtual addresses divided by the number of bytes per page. 
+The number of virtual addresses is 2^16, and the number of bytes per page is 8 KB, 
+so the number of entries is 2^16/8 KB = 2^16/2^13 = 2^3 = 8.
+The total size of the page table is 32 bits per entry times 8 entries, or 256 bits.
+
