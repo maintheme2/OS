@@ -1,0 +1,2 @@
+For the debugging purpose, I constructed the following sequence:
+11 11 11 11 11 11 11 11 11 11 12, it results with 9 page hits and 2 page faults.
