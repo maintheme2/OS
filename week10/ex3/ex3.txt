@@ -1,0 +1,6 @@
+-rw-r----- 1 halcyon halcyon 13 Nov 14 22:13 _ex3.txt
+-r--r--r-- 1 halcyon halcyon 13 Nov 14 22:13 _ex3.txt
+-r--r--r-- 1 halcyon halcyon 13 Nov 14 22:13 _ex3.txt
+660 means that the file is readable and writable by the owner and readable by the group.
+775 means that the file is readable, writable and executable by the owner and the group. 
+777 means that the file is readable, writable and executable by all users.
