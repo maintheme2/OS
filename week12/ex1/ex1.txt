@@ -43,3 +43,9 @@
   ffff-ffff : pnp 00:02
     ffff-ffff : pnp 00:02
       ffff-ffff : pnp 00:02
+
+dma1 - direct memory access controller, represents the device which requests transfers to the main memory
+
+pic1 - peripheral interface controller, used to increase io throughput. Separates io-based programs and data from the CPU.
+
+timer1 - 
