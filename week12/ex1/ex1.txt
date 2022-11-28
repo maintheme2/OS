@@ -48,4 +48,4 @@ dma1 - direct memory access controller, represents the device which requests tra
 
 pic1 - peripheral interface controller, used to increase io throughput. Separates io-based programs and data from the CPU.
 
-timer1 - 
+timer1 - hardware that programs use to setup interrupts for specific time intervals. 
