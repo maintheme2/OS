@@ -4,7 +4,8 @@
 #include <unistd.h>
 #include <linux/input.h>
 
-int main(int argc, char *argv[]) {
+int 
+main(int argc, char *argv[]) {
     struct input_event ev;
     int size = sizeof(struct input_event);
 
@@ -23,17 +24,18 @@ int main(int argc, char *argv[]) {
             exit(1);
         }
 
-        // stop reading when ! is pressed
-        if (ev.type == 1 && ev.code == 2 && ev.value == 1) {
-            break;
-        }
-
         if (ev.type == EV_KEY) {
             if (ev.value == 1) {
-                fprintf(fp, "PRESSED: %x %d\n", ev.code, ev.code);
+                // stop reading when esc is pressed 
+                if (ev.code == 1) {
+                    break;
+                }
+                printf("PRESSED: %x (%d)\n", ev.code, ev.code);
+                fprintf(fp, "PRESSED: %x (%d)\n", ev.code, ev.code);
             }
             else if (ev.value == 0) {
-                fprintf(fp, "RELEASED: %x %d\n", ev.code, ev.code);
+                printf("RELEASED: %x (%d)\n", ev.code, ev.code);
+                fprintf(fp, "RELEASED: %x (%d)\n", ev.code, ev.code);
             }
         }
     }
